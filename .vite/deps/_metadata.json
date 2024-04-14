@@ -1,0 +1,95 @@
+{
+  "hash": "fe4b1e41",
+  "browserHash": "d3ae19de",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "e3506c37",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c9b9fde0",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "70676059",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "3dfefe2d",
+      "needsInterop": false
+    },
+    "react-tilt": {
+      "src": "../../node_modules/react-tilt/dist/tilt.js",
+      "file": "react-tilt.js",
+      "fileHash": "a43ed390",
+      "needsInterop": true
+    },
+    "react-vertical-timeline-component": {
+      "src": "../../node_modules/react-vertical-timeline-component/dist-es6/index.js",
+      "file": "react-vertical-timeline-component.js",
+      "fileHash": "7263bca6",
+      "needsInterop": true
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "609e4417",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "686daa68",
+      "needsInterop": false
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "1e9dbdea",
+      "needsInterop": false
+    },
+    "maath/random/dist/maath-random.esm": {
+      "src": "../../node_modules/maath/random/dist/maath-random.esm.js",
+      "file": "maath_random_dist_maath-random__esm.js",
+      "fileHash": "7d97e567",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "troika-three-text.esm-ODTQJMOD": {
+      "file": "troika-three-text__esm-ODTQJMOD.js"
+    },
+    "vision_bundle-AXWP4BN4": {
+      "file": "vision_bundle-AXWP4BN4.js"
+    },
+    "chunk-KJFAWGIA": {
+      "file": "chunk-KJFAWGIA.js"
+    },
+    "chunk-UWVSU6CR": {
+      "file": "chunk-UWVSU6CR.js"
+    },
+    "chunk-YLFKALMF": {
+      "file": "chunk-YLFKALMF.js"
+    },
+    "chunk-DUGGC4E4": {
+      "file": "chunk-DUGGC4E4.js"
+    },
+    "chunk-PY2YALCK": {
+      "file": "chunk-PY2YALCK.js"
+    },
+    "chunk-2PA4WPI3": {
+      "file": "chunk-2PA4WPI3.js"
+    },
+    "chunk-ROME4SDB": {
+      "file": "chunk-ROME4SDB.js"
+    }
+  }
+}
