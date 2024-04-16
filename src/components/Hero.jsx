@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { Application as gr } from "@splinetool/runtime";
 import Spline from '@splinetool/react-spline';
 
 const Hero = () => {
@@ -26,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <Spline scene="https://prod.spline.design/J7aI6w9pUAysAXjQ/scene.splinecode" />
       {/* <Spline scene="https://prod.spline.design/j8QGEa70QeTCLrsf/scene.splinecode" /> */}
 
