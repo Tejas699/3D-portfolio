@@ -17,7 +17,9 @@ import {
   docker,
   meta,
   starbucks,
+  PDRLIcon,
   tesla,
+  Sunrayz,
   shopify,
   carrent,
   jobit,
@@ -49,7 +51,7 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-    info:'I have a demonstrated ability to architect and implement scalable, efficient, and secure server-side solutions, contributing to the robustness of web applications.'
+    info: 'I have a demonstrated ability to architect and implement scalable, efficient, and secure server-side solutions, contributing to the robustness of web applications.'
   },
   // {
   //   title: "React Native Developer",
@@ -119,28 +121,30 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    company_name: "PDRL",
+    // icon: starbucks,
+    icon: PDRLIcon,
+    iconBg: "#000000",
+    date: "January 2023 - current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of AeroMegh, a SaaS platform for transforming drone data into actionable insights.",
+      "Collaborated with a team to develop an end-to-end stack for flying and capturing, processing, and analyzing drone data",
+      "Played a key role in designing and implementing web-based features and functionalities for AeroMegh.",
+      "Worked on enhancing the user interface and user experience of the platform using modern web technologies."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "React Developer",
+    company_name: "Sunrayz Technology",
+    icon: Sunrayz,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "February 2022 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a web-based live attendance system using React.js for the frontend and Node.js for the backend.",
+      "Utilized PostgreSQL database to store attendance data securely and efficiently.",
+      "Designed and implemented RESTful APIs to facilitate communication between the frontend and backend systems over the HTTP protocol.",
+      "Implemented real - time features for live attendance tracking and updates using WebSocket technology.",
+      "Collaborated with a team of developers to plan, develop, and deploy the application."
     ],
   },
   // {

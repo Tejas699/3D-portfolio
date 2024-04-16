@@ -25,6 +25,8 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import PDRLIcon from "./company/PDRL.png";
+import Sunrayz from "./company/SunrayzIcon.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -56,6 +58,8 @@ export {
   meta,
   shopify,
   starbucks,
+  PDRLIcon,
+  Sunrayz,
   tesla,
   carrent,
   jobit,
