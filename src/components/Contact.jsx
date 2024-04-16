@@ -31,18 +31,50 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+      // emailjs
+      //   .send(
+      //     import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+      //     import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      //     {
+      //       from_name: form.name,
+      //       to_name: "Tejas Patil",
+      //       from_email: form.email,
+      //       to_email: "tjpatil099@gmail.com",
+      //       message: form.message,
+      //     },
+      //     import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      //   )
+      //   .then(
+      //     () => {
+      //       setLoading(false);
+      //       alert("Thank you. I will get back to you as soon as possible.");
+
+      //       setForm({
+      //         name: "",
+      //         email: "",
+      //         message: "",
+      //       });
+      //     },
+      //     (error) => {
+      //       setLoading(false);
+      //       console.error(error);
+
+      //       alert("Ahh, something went wrong. Please try again.");
+      //     }
+      //   );
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'tejaspatil099',
+        'template_vr5tn7y',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Tejas Patil",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "tjpatil099@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'GOVDGCuSMwNB2QjAM'
       )
       .then(
         () => {
@@ -72,7 +104,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Take a coffee and Chat with me</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
