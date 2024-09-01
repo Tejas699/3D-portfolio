@@ -26,12 +26,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import PDRLIcon from "./company/PDRL.png";
-import Sunrayz from "./company/SunrayzIcon.png"
+import Sunrayz from "./company/SunrayzIcon.png";
+import FS from "./company/FS.jpg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import tejasResume from "./tejasResume.pdf"
 
 export {
   logo,
@@ -60,8 +63,10 @@ export {
   starbucks,
   PDRLIcon,
   Sunrayz,
+  FS,
   tesla,
   carrent,
   jobit,
   tripguide,
+  tejasResume
 };

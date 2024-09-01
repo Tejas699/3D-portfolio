@@ -20,6 +20,7 @@ import {
   PDRLIcon,
   tesla,
   Sunrayz,
+  FS,
   shopify,
   carrent,
   jobit,
@@ -35,6 +36,9 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  }, {
+    id: "resume",
+    title: "Resume",
   },
   {
     id: "contact",
@@ -134,17 +138,16 @@ const experiences = [
     ],
   },
   {
-    title: "React Developer",
-    company_name: "Sunrayz Technology",
-    icon: Sunrayz,
+    title: "Web Developer",
+    company_name: "Freekyat Systems Pvt Ltd",
+    icon: FS,
     iconBg: "#E6DEDD",
     date: "February 2022 - December 2023",
     points: [
-      "Developed a web-based live attendance system using React.js for the frontend and Node.js for the backend.",
-      "Utilized PostgreSQL database to store attendance data securely and efficiently.",
-      "Designed and implemented RESTful APIs to facilitate communication between the frontend and backend systems over the HTTP protocol.",
-      "Implemented real - time features for live attendance tracking and updates using WebSocket technology.",
-      "Collaborated with a team of developers to plan, develop, and deploy the application."
+      "Arvind Dharmapuri is a politician which came to us for a new website through which they can see all events and related blogs.",
+      "I independently developed ecommerce site from scratch with below features",
+      "Users can post the comments related blogs, They can see the Latest News and Upcoming events",
+      "Supported the project till go live throughout SDLC process from requirements to deployment."
     ],
   },
   // {

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, } from "../assets";
+import { logo, menu, close, tejasResume } from "../assets";
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -55,7 +56,14 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
+              {
+                nav.title == 'Resume' ?
+                  <a href={"https://drive.google.com/file/d/1wTjzAscyzA8_8ZlkbSAh97hvduxkUTij/view?usp=sharing"}
+                    target="_blank">{nav.title}</a>
+                  :
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+              }
             </li>
           ))}
         </ul>
@@ -90,7 +98,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </nav>
+    </nav >
   );
 };
 
