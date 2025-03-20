@@ -137,19 +137,19 @@ const experiences = [
       "Worked on enhancing the user interface and user experience of the platform using modern web technologies."
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Freekyat Systems Pvt Ltd",
-    icon: FS,
-    iconBg: "#E6DEDD",
-    date: "February 2022 - December 2023",
-    points: [
-      "Arvind Dharmapuri is a politician which came to us for a new website through which they can see all events and related blogs.",
-      "I independently developed ecommerce site from scratch with below features",
-      "Users can post the comments related blogs, They can see the Latest News and Upcoming events",
-      "Supported the project till go live throughout SDLC process from requirements to deployment."
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Freekyat Systems Pvt Ltd",
+  //   icon: FS,
+  //   iconBg: "#E6DEDD",
+  //   date: "February 2022 - December 2023",
+  //   points: [
+  //     "Arvind Dharmapuri is a politician which came to us for a new website through which they can see all events and related blogs.",
+  //     "I independently developed ecommerce site from scratch with below features",
+  //     "Users can post the comments related blogs, They can see the Latest News and Upcoming events",
+  //     "Supported the project till go live throughout SDLC process from requirements to deployment."
+  //   ],
+  // },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",

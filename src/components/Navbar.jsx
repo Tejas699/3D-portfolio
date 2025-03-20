@@ -59,7 +59,7 @@ const Navbar = () => {
               {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
               {
                 nav.title == 'Resume' ?
-                  <a href={"https://drive.google.com/file/d/1wTjzAscyzA8_8ZlkbSAh97hvduxkUTij/view?usp=sharing"}
+                  <a href={"https://drive.google.com/file/d/1OSpmtGu7E3Cx0l_Rg3V6s1wGxt4L6_zF/view?usp=sharing"}
                     target="_blank">{nav.title}</a>
                   :
                   <a href={`#${nav.id}`}>{nav.title}</a>
